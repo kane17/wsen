@@ -1,0 +1,1 @@
+This repository includes code examples from the WSEN lessons 2021
