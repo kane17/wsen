@@ -24,16 +24,6 @@ def max_of_two(x, y):
 
 def max_of_three(x, y, z):
     highestOfThemAll = max_of_two(x, max_of_two(y, z))
-    # maxOfFirstAndSecond = max_of_two(x, y)
-    # maxOfSecondAndThird = max_of_two(y, z)
-    # maxOfFirstAndThird = max_of_two(x, y)
-    # if maxOfFirstAndSecond > maxOfSecondAndThird:
-    #     highestOfThemAll = maxOfFirstAndSecond
-    # else:
-    #     highestOfThemAll = maxOfSecondAndThird
-    #
-    # if maxOfSecondAndThird > highestOfThemAll:
-    #     highestOfThemAll = maxOfSecondAndThird
     print("Die höchste Zahl ist: " + str(highestOfThemAll))
 
 max_of_three(4999999, 876656543323, 300700)
@@ -50,3 +40,54 @@ def g(x):
     return y
 
 print(g(3))
+
+print(bin(5 | 6))
+
+R = {(1, 4),(1, 3),(1, 2),(3, 6),(3, 5),(6, 7),(5, 7),(1, 6),(4, 7),(1, 5),(1, 7)}
+result2 = True
+for x in {1,2,3,4,5,6,7}:
+    if x in {1,4}:
+        result1 = False
+        for y in {2,7}:
+            result1 = result1 or (( x , y ) in R )
+    result2 = result2 and result1
+print ( result2)
+
+
+sum = 0
+for i in range(1, 11):
+    print(i)
+    sum += i*i
+    print()
+print(sum)
+
+salary = 8000
+
+def printSalary():
+    salary = 12000
+    print("salary: ", salary)
+
+printSalary()
+
+def drucke_zk_liste():
+    userInputs = []
+    userEnteredStop = False
+    print(not userEnteredStop)
+
+drucke_zk_liste()
+
+def SumFunk(num):
+    sum = 0
+    for i in range(10):
+        print(i)
+
+SumFunk(100)
+
+x = 15
+
+def print_f():
+    x = 27
+    print(x)
+
+print_f()
+print(x)

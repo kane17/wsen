@@ -1,8 +1,8 @@
-# a = 25
-# print("dec", a)
-# print("dual", bin(a))
-# print("oktal", oct(a))
-# print("hexadez", hex(a))
+a = 25
+print("dec", a)
+print("dual", bin(a))
+print("oktal", oct(a))
+print("hexadez", hex(a))
 import math
 
 x = 12 / 7
